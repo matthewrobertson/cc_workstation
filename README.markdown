@@ -22,11 +22,11 @@ You will need to have your github username and password on hand as well as your 
 
 ## Step 1: Install Dependencies
 
-In order to complile a Ruby interpreter as well as Gem to "native extensions" (written in C or C++) you must have a compatible C / C++ compiler available on your system. The only option that has been tested to work with this guide is to install __XCODE__ and __Command Line Tools for Xcode__.
+In order to complile a Ruby interpreter as well as Gem to "native extensions" (written in C or C++) you must have a compatible C / C++ compiler available on your system. The only option that has been tested to work with this guide is to install __XCODE__ and the __Command Line Tools for Xcode__.
 
 ### XCODE:
 
-Install download and install Xcode 4 from the App Store. Once it the install is complete, open up xcode and accept the terms and conditions, and install any additional dependencies it prompts you to install.
+Download and install Xcode 4 from the App Store. Once it the install is complete, open up the application, accept the terms and conditions, and install any additional dependencies it prompts you to install.
 
 ### XCODE Command Line Utilities:
 
