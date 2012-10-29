@@ -38,6 +38,8 @@ We have included a bash script that will pull down all necessary necessary cookb
 
 `$ curl -L https://raw.github.com/matthewrobertson/cc_workstation/master/setup.bash | bash`
 
+You will be prompted to enter some passwords, usernames etc so keep an eye on the terminal as the script runs.
+
 _Note: if the script fails with complaints that xcode is not available, run the following command and try again:_
 
 `$ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer`
