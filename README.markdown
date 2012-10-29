@@ -36,7 +36,7 @@ In order to access the XCode's compilers from the command line you must install 
 
 We have included a bash script that will pull down all necessary necessary cookbooks, install and run soloist. Cookbooks will be stored in `~/cookbooks`. To run the script run:
 
-$ curl -L TODO::??PATH | bash
+`$ curl -L https://raw.github.com/matthewrobertson/cc_workstation/master/setup.bash | bash`
 
 _Note: if the script fails with complaints that xcode is not available, run the following command and try again:_
 
