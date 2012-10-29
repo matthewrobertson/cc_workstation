@@ -19,6 +19,11 @@ mkdir -p ~/cookbooks/pivotal_workstation
 cd  ~/cookbooks/pivotal_workstation
 curl -L http://github.com/pivotal/pivotal_workstation/tarball/master | gunzip | tar xvf - --strip=1
 
+# Grab the cc_workstation cookbook (ditto curl cuz no git)
+mkdir -p ~/cookbooks/cc_workstation
+cd  ~/cookbooks/cc_workstation
+curl -L https://github.com/matthewrobertson/cc_workstation/tarball/master | gunzip | tar xvf - --strip=1
+
 # run soloist to install everything
 cd ~/cookbooks
 soloist
